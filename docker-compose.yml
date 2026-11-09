@@ -1,0 +1,19 @@
+# Tiers données : API REST Flask + stockage JSON
+services:
+  api:
+    build: .
+    image: rt0705/videotheque-api:dev
+    # Aucun port publié : l'API n'est joignable que depuis le réseau videotheque_net
+    environment:
+      FLASK_RUN_PORT: "5001"
+      FLASK_DEBUG: "1"
+      DATA_DIR: "/data"
+    volumes:
+      - ./app:/app
+      - ./data:/data
+    networks:
+      - videotheque_net
+
+networks:
+  videotheque_net:
+    external: true

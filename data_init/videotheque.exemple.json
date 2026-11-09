@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "films": [
+    {
+      "id": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "titre": "Inception",
+      "titreOriginal": "Inception",
+      "annee": 2010,
+      "dureeMinutes": 148,
+      "synopsis": "Un voleur spécialisé dans l'extraction de secrets au cœur des rêves se voit confier la mission inverse : implanter une idée.",
+      "genres": [
+        "Science-fiction",
+        "Thriller"
+      ],
+      "langueOriginale": "en",
+      "afficheUrl": null,
+      "dateAjout": "2025-09-02"
+    },
+    {
+      "id": "280a5bee-366d-455d-b07a-f60bf2fe9f32",
+      "titre": "Interstellar",
+      "titreOriginal": "Interstellar",
+      "annee": 2014,
+      "dureeMinutes": 169,
+      "synopsis": "Alors que la Terre devient inhabitable, un ancien pilote rejoint une mission spatiale à la recherche d'un nouveau foyer pour l'humanité.",
+      "genres": [
+        "Science-fiction",
+        "Drame"
+      ],
+      "langueOriginale": "en",
+      "afficheUrl": null,
+      "dateAjout": "2025-09-02"
+    },
+    {
+      "id": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "titre": "Le Fabuleux Destin d'Amélie Poulain",
+      "titreOriginal": "Le Fabuleux Destin d'Amélie Poulain",
+      "annee": 2001,
+      "dureeMinutes": 122,
+      "synopsis": "À Montmartre, une jeune serveuse discrète décide de transformer en secret la vie des gens qui l'entourent.",
+      "genres": [
+        "Comédie",
+        "Romance"
+      ],
+      "langueOriginale": "fr",
+      "afficheUrl": null,
+      "dateAjout": "2025-09-05"
+    },
+    {
+      "id": "ba9e2e2f-3c6c-4860-b843-b1959c3dd028",
+      "titre": "La Haine",
+      "titreOriginal": "La Haine",
+      "annee": 1995,
+      "dureeMinutes": 98,
+      "synopsis": "Vingt-quatre heures dans la vie de trois amis d'une cité de banlieue, au lendemain d'une nuit d'émeutes.",
+      "genres": [
+        "Drame"
+      ],
+      "langueOriginale": "fr",
+      "afficheUrl": null,
+      "dateAjout": "2025-09-05"
+    },
+    {
+      "id": "7ee2ba7a-c653-4a69-b391-4561b230e219",
+      "titre": "Parasite",
+      "titreOriginal": "기생충",
+      "annee": 2019,
+      "dureeMinutes": 132,
+      "synopsis": "Une famille sans ressources s'infiltre peu à peu au service d'une famille aisée, jusqu'à ce que tout dérape.",
+      "genres": [
+        "Thriller",
+        "Drame"
+      ],
+      "langueOriginale": "ko",
+      "afficheUrl": null,
+      "dateAjout": "2025-10-12"
+    },
+    {
+      "id": "ba34d462-5740-4803-8f60-271d2c5d3e44",
+      "titre": "Dune : Deuxième partie",
+      "titreOriginal": "Dune: Part Two",
+      "annee": 2024,
+      "dureeMinutes": 166,
+      "synopsis": "Paul Atréides s'allie aux Fremen du désert d'Arrakis pour venger sa famille, tout en redoutant l'avenir qu'il entrevoit.",
+      "genres": [
+        "Science-fiction",
+        "Aventure"
+      ],
+      "langueOriginale": "en",
+      "afficheUrl": null,
+      "dateAjout": "2026-10-20"
+    }
+  ],
+  "personnes": [
+    {
+      "id": "4b9458a7-0201-4a72-826a-5621c7ae467e",
+      "nom": "Christopher Nolan"
+    },
+    {
+      "id": "7aad1c1b-6e8c-410b-aa1a-873a4ed2f334",
+      "nom": "Leonardo DiCaprio"
+    },
+    {
+      "id": "86472779-f9cf-4216-b8ca-83df4cfb79df",
+      "nom": "Marion Cotillard"
+    },
+    {
+      "id": "bacb9881-c915-4f94-a805-feccb81ca17b",
+      "nom": "Matthew McConaughey"
+    },
+    {
+      "id": "ad4a501c-6879-4d01-83f8-ab45d6d7e81f",
+      "nom": "Anne Hathaway"
+    },
+    {
+      "id": "16a1e8e8-e4c2-4828-9083-9fea1abb18e1",
+      "nom": "Jean-Pierre Jeunet"
+    },
+    {
+      "id": "5213501f-4f63-4ac1-808d-a94f74c895c7",
+      "nom": "Audrey Tautou"
+    },
+    {
+      "id": "fcda797d-e3f2-4134-8e03-f1df2e738eb2",
+      "nom": "Mathieu Kassovitz"
+    },
+    {
+      "id": "fa34d917-672f-490b-862e-7aecaf3cea7c",
+      "nom": "Vincent Cassel"
+    },
+    {
+      "id": "d424c890-85ad-4a44-b2d3-1eb98ba94ac8",
+      "nom": "Bong Joon-ho"
+    },
+    {
+      "id": "8b8a76d0-657e-42bc-8218-d0997c9c5a34",
+      "nom": "Song Kang-ho"
+    },
+    {
+      "id": "40a77d3d-6efc-4476-8030-bcf158010406",
+      "nom": "Denis Villeneuve"
+    },
+    {
+      "id": "3d6cd9dc-f401-4e0c-bfba-3c70170521ee",
+      "nom": "Timothée Chalamet"
+    },
+    {
+      "id": "2a065028-8761-4e6d-8ad7-cb8c9b46728e",
+      "nom": "Zendaya"
+    }
+  ],
+  "participations": [
+    {
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "personneId": "4b9458a7-0201-4a72-826a-5621c7ae467e",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "personneId": "7aad1c1b-6e8c-410b-aa1a-873a4ed2f334",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "personneId": "86472779-f9cf-4216-b8ca-83df4cfb79df",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "280a5bee-366d-455d-b07a-f60bf2fe9f32",
+      "personneId": "4b9458a7-0201-4a72-826a-5621c7ae467e",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "280a5bee-366d-455d-b07a-f60bf2fe9f32",
+      "personneId": "bacb9881-c915-4f94-a805-feccb81ca17b",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "280a5bee-366d-455d-b07a-f60bf2fe9f32",
+      "personneId": "ad4a501c-6879-4d01-83f8-ab45d6d7e81f",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "personneId": "16a1e8e8-e4c2-4828-9083-9fea1abb18e1",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "personneId": "5213501f-4f63-4ac1-808d-a94f74c895c7",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "personneId": "fcda797d-e3f2-4134-8e03-f1df2e738eb2",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "ba9e2e2f-3c6c-4860-b843-b1959c3dd028",
+      "personneId": "fcda797d-e3f2-4134-8e03-f1df2e738eb2",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "ba9e2e2f-3c6c-4860-b843-b1959c3dd028",
+      "personneId": "fa34d917-672f-490b-862e-7aecaf3cea7c",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "ba9e2e2f-3c6c-4860-b843-b1959c3dd028",
+      "personneId": "fcda797d-e3f2-4134-8e03-f1df2e738eb2",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "7ee2ba7a-c653-4a69-b391-4561b230e219",
+      "personneId": "d424c890-85ad-4a44-b2d3-1eb98ba94ac8",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "7ee2ba7a-c653-4a69-b391-4561b230e219",
+      "personneId": "8b8a76d0-657e-42bc-8218-d0997c9c5a34",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "ba34d462-5740-4803-8f60-271d2c5d3e44",
+      "personneId": "40a77d3d-6efc-4476-8030-bcf158010406",
+      "role": "REALISATEUR"
+    },
+    {
+      "filmId": "ba34d462-5740-4803-8f60-271d2c5d3e44",
+      "personneId": "3d6cd9dc-f401-4e0c-bfba-3c70170521ee",
+      "role": "ACTEUR"
+    },
+    {
+      "filmId": "ba34d462-5740-4803-8f60-271d2c5d3e44",
+      "personneId": "2a065028-8761-4e6d-8ad7-cb8c9b46728e",
+      "role": "ACTEUR"
+    }
+  ],
+  "supports": [
+    {
+      "id": "ca2b754d-49ef-4aef-b3e3-7129f0476ea5",
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-09-02",
+      "commentaire": null,
+      "type": "BLU_RAY",
+      "etat": "BON",
+      "emplacement": "Étagère A2"
+    },
+    {
+      "id": "2358661a-22c9-42f3-9f4c-c2b0f559edb6",
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "categorie": "NUMERIQUE",
+      "dateAcquisition": "2025-09-02",
+      "commentaire": null,
+      "format": "MKV",
+      "resolution": "1080p",
+      "chemin": "/media/films/inception_2010.mkv",
+      "tailleGo": 12.4
+    },
+    {
+      "id": "e156b783-7486-4a60-98ec-2dd620e42302",
+      "filmId": "280a5bee-366d-455d-b07a-f60bf2fe9f32",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-09-02",
+      "commentaire": null,
+      "type": "BLU_RAY_4K",
+      "etat": "NEUF",
+      "emplacement": "Étagère A2"
+    },
+    {
+      "id": "90cf7d88-aa5e-4201-8414-29365b88e1f8",
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-09-05",
+      "commentaire": "Boîtier fendu, disque intact",
+      "type": "DVD",
+      "etat": "USE",
+      "emplacement": "Étagère B1"
+    },
+    {
+      "id": "05eb55ff-52d7-419c-82c0-c942f17b4045",
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-09-05",
+      "commentaire": "Non retrouvée lors de l'inventaire de juin 2026",
+      "type": "VHS",
+      "etat": "PERDU",
+      "emplacement": "Inconnu"
+    },
+    {
+      "id": "035df942-bbd4-4a20-81c5-856bd52e9651",
+      "filmId": "ba9e2e2f-3c6c-4860-b843-b1959c3dd028",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-09-05",
+      "commentaire": null,
+      "type": "DVD",
+      "etat": "BON",
+      "emplacement": "Étagère B1"
+    },
+    {
+      "id": "b47fe8ce-0e8e-46d7-ae96-beb6210d98e2",
+      "filmId": "7ee2ba7a-c653-4a69-b391-4561b230e219",
+      "categorie": "PHYSIQUE",
+      "dateAcquisition": "2025-10-12",
+      "commentaire": null,
+      "type": "BLU_RAY",
+      "etat": "BON",
+      "emplacement": "Étagère A3"
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": "02e40825-3486-423a-99ea-b4ec42b71ac0",
+      "login": "camille",
+      "email": "camille@videotheque.local",
+      "motDePasseHash": "scrypt:32768:8:1$1b3de70e109abf73$b22bcaedd2dbf417d9e31cdab0062c872c7558578521cd3d37bced07b2efc25b",
+      "role": "ADMIN",
+      "actif": true,
+      "dateInscription": "2025-09-01"
+    },
+    {
+      "id": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "login": "lucas",
+      "email": "lucas@videotheque.local",
+      "motDePasseHash": "scrypt:32768:8:1$d533dc6f4797cccf$4837ca17361272c44959047c9a4a84c4a6e908f2f22eae40751813f6fa7cbedd",
+      "role": "MEMBRE",
+      "actif": true,
+      "dateInscription": "2025-09-10"
+    },
+    {
+      "id": "7196c27a-dbcd-4d92-ab5c-21c743fdac1f",
+      "login": "ines",
+      "email": "ines@videotheque.local",
+      "motDePasseHash": "scrypt:32768:8:1$f5a7b59caaf0475b$394b5f702b323127615acb396c21f7f94ce60dfb165e9477a9c47943e54498bf",
+      "role": "MEMBRE",
+      "actif": true,
+      "dateInscription": "2025-10-02"
+    },
+    {
+      "id": "5392088a-387a-4ab6-8390-8f830a3691e8",
+      "login": "theo",
+      "email": "theo@videotheque.local",
+      "motDePasseHash": "scrypt:32768:8:1$f1d087f1d2443888$56a4932ae21b41a8308d0001ed10ca00c9d72215267f35df8892cf67fa2581c0",
+      "role": "MEMBRE",
+      "actif": false,
+      "dateInscription": "2025-11-15"
+    }
+  ],
+  "prets": [
+    {
+      "id": "816ce2c7-2ad9-4da2-b544-1eca1a6d1cf8",
+      "supportId": "ca2b754d-49ef-4aef-b3e3-7129f0476ea5",
+      "utilisateurId": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "dateDebut": "2026-10-30",
+      "dateRetourPrevue": "2026-11-13",
+      "dateRetourEffective": null,
+      "statut": "EN_COURS",
+      "retourEnregistrePar": null,
+      "remarqueRetour": null
+    },
+    {
+      "id": "be17bb86-3eb2-45f0-8140-3fbc45d79e2f",
+      "supportId": "90cf7d88-aa5e-4201-8414-29365b88e1f8",
+      "utilisateurId": "7196c27a-dbcd-4d92-ab5c-21c743fdac1f",
+      "dateDebut": "2026-10-15",
+      "dateRetourPrevue": "2026-10-29",
+      "dateRetourEffective": null,
+      "statut": "EN_COURS",
+      "retourEnregistrePar": null,
+      "remarqueRetour": null
+    },
+    {
+      "id": "d123268f-a7a4-46c1-86eb-ca4d509eda15",
+      "supportId": "e156b783-7486-4a60-98ec-2dd620e42302",
+      "utilisateurId": "02e40825-3486-423a-99ea-b4ec42b71ac0",
+      "dateDebut": "2026-11-02",
+      "dateRetourPrevue": "2026-11-16",
+      "dateRetourEffective": null,
+      "statut": "EN_COURS",
+      "retourEnregistrePar": null,
+      "remarqueRetour": null
+    },
+    {
+      "id": "964070f1-d640-4b68-b6d3-e45d97bbe9cf",
+      "supportId": "b47fe8ce-0e8e-46d7-ae96-beb6210d98e2",
+      "utilisateurId": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "dateDebut": "2026-09-01",
+      "dateRetourPrevue": "2026-09-15",
+      "dateRetourEffective": "2026-09-12",
+      "statut": "RENDU",
+      "retourEnregistrePar": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "remarqueRetour": null
+    },
+    {
+      "id": "935a89aa-7e9e-4cee-9410-f68f811af5e5",
+      "supportId": "035df942-bbd4-4a20-81c5-856bd52e9651",
+      "utilisateurId": "5392088a-387a-4ab6-8390-8f830a3691e8",
+      "dateDebut": "2026-06-02",
+      "dateRetourPrevue": "2026-06-16",
+      "dateRetourEffective": "2026-07-01",
+      "statut": "RENDU",
+      "retourEnregistrePar": "02e40825-3486-423a-99ea-b4ec42b71ac0",
+      "remarqueRetour": "Clôturé par l'admin : DVD retrouvé sur l'étagère, retour non déclaré"
+    }
+  ],
+  "suivis": [
+    {
+      "utilisateurId": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "vu": true,
+      "note": 5,
+      "commentaire": "Toujours aussi vertigineux au troisième visionnage.",
+      "dateMaj": "2026-10-31"
+    },
+    {
+      "utilisateurId": "8deed24e-2417-411c-8ed7-c229c89b35ea",
+      "filmId": "7ee2ba7a-c653-4a69-b391-4561b230e219",
+      "vu": true,
+      "note": 4,
+      "commentaire": null,
+      "dateMaj": "2026-09-12"
+    },
+    {
+      "utilisateurId": "7196c27a-dbcd-4d92-ab5c-21c743fdac1f",
+      "filmId": "d2386f67-a6a2-4a6b-b0f6-1314e2346bda",
+      "vu": true,
+      "note": 4,
+      "commentaire": "Parfait pour un dimanche pluvieux.",
+      "dateMaj": "2026-10-20"
+    },
+    {
+      "utilisateurId": "02e40825-3486-423a-99ea-b4ec42b71ac0",
+      "filmId": "0d43407c-049a-45ec-bf3c-9c189f4535d1",
+      "vu": true,
+      "note": 4,
+      "commentaire": null,
+      "dateMaj": "2026-03-14"
+    },
+    {
+      "utilisateurId": "02e40825-3486-423a-99ea-b4ec42b71ac0",
+      "filmId": "ba34d462-5740-4803-8f60-271d2c5d3e44",
+      "vu": false,
+      "note": null,
+      "commentaire": null,
+      "dateMaj": "2026-10-20"
+    }
+  ]
+}
