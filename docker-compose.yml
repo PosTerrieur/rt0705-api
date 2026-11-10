@@ -3,6 +3,7 @@ services:
   api:
     build: .
     image: rt0705/videotheque-api:dev
+    container_name: videotheque-api
     # Aucun port publié : l'API n'est joignable que depuis le réseau videotheque_net
     environment:
       FLASK_RUN_PORT: "5001"
@@ -19,6 +20,12 @@ services:
       - ./data_init:/data_init:ro
     networks:
       - videotheque_net
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5001/api/sante', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
 
 networks:
   videotheque_net:
