@@ -274,6 +274,17 @@ attendre("il ne peut plus se connecter", 401,
 attendre("le dernier admin ne peut pas se rétrograder", 409,
          appel("PATCH", f"/utilisateurs/{admin['id']}", jeton_admin, {"role": "MEMBRE"}), "DERNIER_ADMIN")
 
+titre("Import de métadonnées TMDb (bonus F15)")
+attendre("import par un membre", 403, appel("GET", "/metadonnees?titre=Inception", jeton_lucas), "ACCES_INTERDIT")
+attendre("import sans titre", 400, appel("GET", "/metadonnees", jeton_admin), "VALIDATION")
+code, corps, _ = appel("GET", "/metadonnees?titre=Inception&annee=2010", jeton_admin)
+if code == 200:   # clé TMDb configurée et TMDb joignable
+    verifier("proposition au format du payload POST /api/films",
+             all(k in corps for k in ("titre", "annee", "genres", "realisateurs", "acteurs", "afficheUrl")))
+else:             # pas de clé, ou TMDb injoignable : erreur propre, sans plantage
+    verifier("sans clé TMDb : 503 SERVICE_EXTERNE_INDISPONIBLE",
+             code == 503 and corps["erreur"]["code"] == "SERVICE_EXTERNE_INDISPONIBLE", f"(reçu {code})")
+
 titre("Déconnexion")
 attendre("DELETE /sessions/current", 204, appel("DELETE", "/sessions/current", jeton_lucas))
 attendre("le jeton ne fonctionne plus", 401, appel("GET", "/utilisateurs/me", jeton_lucas))

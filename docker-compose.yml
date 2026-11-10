@@ -7,13 +7,14 @@ services:
     # Aucun port publié : l'API n'est joignable que depuis le réseau videotheque_net
     environment:
       FLASK_RUN_PORT: "5001"
-      FLASK_DEBUG: "1"
+      FLASK_DEBUG: "${FLASK_DEBUG:-0}"
       DATA_DIR: "/data"
       DATA_INIT_DIR: "/data_init"
       QUOTA_PRETS: "3"
       DUREE_PRET_JOURS: "14"
       SESSION_DUREE_HEURES: "24"
       ADMIN_MOT_DE_PASSE: "${ADMIN_MOT_DE_PASSE:-}"   # facultatif, lu dans le fichier .env
+      TMDB_API_KEY: "${TMDB_API_KEY:-}"         # facultatif (bonus F15), lu dans le fichier .env
     volumes:
       - ./app:/app
       - ./data:/data

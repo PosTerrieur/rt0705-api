@@ -17,6 +17,15 @@ SESSION_DUREE_HEURES = int(os.environ.get("SESSION_DUREE_HEURES", "24"))
 ADMIN_LOGIN = "admin"
 ADMIN_MOT_DE_PASSE = os.environ.get("ADMIN_MOT_DE_PASSE") or None
 
+# --- Service externe de métadonnées TMDb (bonus F15) --------------------------
+# Clé v3 ou « API Read Access Token » : themoviedb.org > Paramètres > API
+TMDB_CLE = os.environ.get("TMDB_API_KEY") or None
+TMDB_URL = os.environ.get("TMDB_URL", "https://api.themoviedb.org/3")
+TMDB_IMAGES = "https://image.tmdb.org/t/p/w500"
+TMDB_LANGUE = os.environ.get("TMDB_LANGUE", "fr-FR")
+TMDB_DELAI_SECONDES = 5
+NB_ACTEURS_IMPORTES = 5
+
 # --- Pagination ---------------------------------------------------------------
 TAILLE_PAGE_DEFAUT = 20
 TAILLE_PAGE_MAX = 100
